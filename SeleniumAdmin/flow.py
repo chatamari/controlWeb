@@ -19,8 +19,7 @@ login_result = performLogin(driver, invalid_email, invalid_password, expect_fail
 print("Invalid login test passed" if not login_result else " Unexpected success on invalid login")
 driver.quit()
 
-# ----- Test Valid Login and Top-Ups -----
-print("Testing valid login and top-up flow")
+print("Testing valid login ")
 driver = getDriver()
 openPage(driver)
 
